@@ -6,7 +6,7 @@ import { AuthProvider } from './AuthContext.jsx';
 import './styles.css';
 
 createRoot(document.getElementById('root')).render(
-  <BrowserRouter>
+  <BrowserRouter basename={import.meta.env.BASE_URL}>
     <AuthProvider>
       <App />
     </AuthProvider>
