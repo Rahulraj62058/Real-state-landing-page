@@ -18,7 +18,6 @@ npm install
 npm run dev
 ```
 
-Open **[http://localhost:3000](http://localhost:3000)** in your browser.
 
 - **Auto-database**: If `MONGO_URI` is empty or unreachable, an in-memory MongoDB server spins up automatically and seeds realistic demo listings and accounts.
 - **Persistent database (optional)**: Set your MongoDB / Atlas connection string in `.env` and run `npm run seed` once to populate initial data.
